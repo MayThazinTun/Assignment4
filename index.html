@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+        .cards{
+            display: flex;
+            justify-content: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+        .content{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 20px;
+            font-size: 15px;
+            width: 300px;
+            height: 480px;
+            border: 2px solid rgb(240, 61, 136);
+            
+        }
+        .image{
+            position: relative;
+            text-align: center;
+            color: white
+        }
+        .image>img{
+            width: 300px;
+            height: 200px;
+            border-bottom: 6px solid rgb(240, 61, 136);
+        }
+        .image>div{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 40px;
+            color: white;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            
+        }
+        .content>button{
+            font-size: 18px;
+            color: white;
+            margin-top: 20px;
+            width: 150px;
+            height: 60px;
+            background-color: rgb(240, 61, 136);
+            border: 1px solid rgb(158, 18, 65);
+        }
+        button:hover{
+            transform: scale(1.1,1.1);
+            transition: 0.1s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex Blog-Cards</h1>
+    <div class="cards">
+        <div class="content">
+            <div class="image">
+                <img src="Images/P1.jpg" alt="New York">
+                <div>New York</div>
+            </div>
+            <h3>
+                <i class="fa-regular fa-calendar-days"></i> Aug &nbsp; &nbsp; &nbsp; <i class="fa-solid fa-heart"></i> 204
+            </h3>
+            <p style="font-size: 18px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error dolore ut quo odit similique distinctio nulla voluptatibus rerum.</p>
+            <button>Read More</button>
+        </div>
+        <div class="content">
+            <div class="image">
+                <img src="Images/P2.jpg" alt="New York">
+                <div>San Francisco</div>
+            </div>
+            <h3>
+                <i class="fa-regular fa-calendar-days"></i> Aug &nbsp; &nbsp; &nbsp; <i class="fa-solid fa-heart"></i> 204
+            </h3>
+            <p style="font-size: 18px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error dolore ut quo odit similique distinctio nulla voluptatibus rerum.</p>
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>
